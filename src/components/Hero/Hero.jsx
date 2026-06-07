@@ -20,7 +20,6 @@ export default function Hero() {
         <section className="relative h-screen w-full flex flex-col justify-center items-center overflow-hidden bg-black px-6">
 
             <div className="relative z-10 w-full max-w-5xl flex flex-col items-center text-center">
-                {/* Dynamic Particle Canvas Headline Container */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -30,7 +29,6 @@ export default function Hero() {
                     <ParticleCanvas />
                 </motion.div>
 
-                {/* Subtitle / Core Value Prop */}
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -41,7 +39,6 @@ export default function Hero() {
                     and modern, premium web experiences.
                 </motion.p>
 
-                {/* CTA Buttons */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -67,7 +64,6 @@ export default function Hero() {
                 </motion.div>
             </div>
 
-            {/* Scroll Indicator */}
             <motion.button
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.4 }}

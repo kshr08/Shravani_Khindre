@@ -15,32 +15,13 @@ export default function About() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
-                        className="max-w-5xl mx-auto"
-                    >
-
+                        className="max-w-5xl mx-auto bg-[#f5f5f7] text-black rounded-[48px] border border-black/5 px-10 py-12 md:px-16 md:py-16">
                         <h2
-                            className="
-            text-center
-            text-5xl
-            md:text-6xl
-            font-bold
-            mb-16
-        "
-                        >
-                            About Me
-                        </h2>
+                            className="text-center text-5xl md:text-6xl font-bold mb-12 text-black">
+                            About Me </h2>
 
                         <div className="max-w-4xl mx-auto">
-                            <p
-                                className="
-                text-white/70
-                text-base
-                md:text-lg
-                leading-relaxed
-                font-light
-                text-justify
-            "
-                            >
+                            <p className="text-black/80 text-base md:text-lg leading-relaxed font-light text-justify">
                                 I'm a Full Stack Developer with hands-on experience
                                 building scalable web applications, AI-assisted
                                 platforms, and computer vision systems. My work spans
@@ -59,7 +40,6 @@ export default function About() {
                                 products while continuing to grow as an engineer.
                             </p>
                         </div>
-
                     </motion.div>
                 </Container>
             </FadeInSection>

@@ -47,7 +47,7 @@ export default function ParticleCanvas() {
                     if (distance < mouse.radius) {
                         const force = (mouse.radius - distance) / mouse.radius;
                         const angle = Math.atan2(dy, dx);
-                        // Spring repulsion
+
                         this.vx -= Math.cos(angle) * force * 1.8;
                         this.vy -= Math.sin(angle) * force * 1.8;
                     }
@@ -59,7 +59,6 @@ export default function ParticleCanvas() {
                 this.vx += springX;
                 this.vy += springY;
 
-                // Friction
                 this.vx *= 0.90;
                 this.vy *= 0.90;
 
@@ -92,7 +91,6 @@ export default function ParticleCanvas() {
             if (!text) return;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            // Calculate responsive font size based on parent width and text length
             let fontSize;
 
             if (canvas.width < 480) {
@@ -132,7 +130,6 @@ export default function ParticleCanvas() {
             );
 
             const points = [];
-            // Step size of 4-5 px gives a nice balance of density and performance
             let step = 5;
 
             if (fontSize < 50) {
