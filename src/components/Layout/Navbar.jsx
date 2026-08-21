@@ -103,7 +103,7 @@ export default function Navbar() {
                 </button>
 
                 <a
-                    href="/resume.pdf"
+                    href="/Shravani_Khindre_Software Developer.pdf"
                     download
                     className="text-white/60 hover:text-white transition"
                 >
