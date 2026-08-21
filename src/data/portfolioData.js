@@ -111,7 +111,7 @@ export const skills = {
 export const experience = {
     company: "Paarsh Infotech Pvt. Ltd.",
     role: "Full Stack Developer Intern",
-    duration: "Jan 2026 – May 2026",
+    duration: "Jan 2026 – June 2026",
 
     highlights: [
         "Developed customer and order management modules.",
